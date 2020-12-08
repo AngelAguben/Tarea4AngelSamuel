@@ -44,6 +44,11 @@ public class Inventada {
     public void setC(int c) {
         this.c = c;
     }
+
+    @Override
+    public String toString() {
+        return "Inventada{" + "a=" + a + ", b=" + b + ", c=" + c + '}';
+    }
     
     
 }
