@@ -11,6 +11,9 @@ package angel.tarea4angel;
  */
 public class PruebaInventada {
     public static void main(String[] args) {
+        Inventada Inventada1 = new Inventada();
+        Inventada Inventada2 = new Inventada(20,30,1);
+        System.out.println(Inventada2 + " " +Inventada1);
         
     }
 }
