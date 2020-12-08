@@ -11,4 +11,14 @@ package angel.tarea4angel;
  */
 public class Inventada {
     int a,b,c;
+
+    public Inventada(int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    public Inventada() {
+    }
+    
 }
